@@ -21,6 +21,7 @@ public class Ex101 {
 		
 		
 		System.out.println("num: "+num+num);
+		System.out.println(num+num);
 		
 		double num2;	// 실수 값을 저장할 수 있는 변수 num2를 선언.
 		num2=3.14;

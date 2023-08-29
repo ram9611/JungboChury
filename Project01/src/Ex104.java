@@ -3,8 +3,9 @@
  * 자료형. 데이터타입(data type)
  * 
  * 6가지 데이터 타입(자료형)<암기>
- * byte, short, int, long(정수)
- * 1	  2	 	 4	  8
+ * byte-> short-> int-> long-> float-> double(실수)
+ * 
+ * 1	  2	 	 4	  8             4      8
  * 
  * float, double(실수)
  * 4	    8
@@ -24,7 +25,7 @@ public class Ex104 {
 		double num2=5.15;
 		
 		//int num3=5.15;  double 값을 int형 변수에 담을 수 없음
-		//Char ch="A";
+		//Char ch="A"; err 문자형은 홀따옴표로!
 		
 		char ch1='A';
 		String ch2="A";
