@@ -1,20 +1,20 @@
 package day2;
 /*
- * ½ºÄ³³Ê °´Ã¼ »ç¿ëÇØ¼­ Á¤¼ö °ª ÀÔ·Â
+ * ìŠ¤ìºë„ˆ ê°ì²´ ì‚¬ìš©í•´ì„œ ì •ìˆ˜ ê°’ ì…ë ¥
  * Scanner sc=new Scanner(System.in);
  * sc.nextInt();
  * 
  * 
  */
 
-import java.util.Scanner; // import¹® ->µÚ¿¡¼­
+import java.util.Scanner; // importë¬¸ ->ë’¤ì—ì„œ
 
 public class Ex208 {
 	public static void main(String[] args) {
-		// ½ºÄ³³Ê °´Ã¼ »ı¼º
+		// ìŠ¤ìºë„ˆ ê°ì²´ ìƒì„±
 		Scanner sc=new Scanner(System.in);
-		System.out.print("Á¤¼ö °ª ÀÔ·Â : ");
-		int num=sc.nextInt();	//»ç¿ëÀÚ ÀÔ·Â °ª
+		System.out.print("ì •ìˆ˜ ê°’ ì…ë ¥ : ");
+		int num=sc.nextInt();	//ì‚¬ìš©ì ì…ë ¥ ê°’
 		
 		System.out.println("num: "+num);
 		

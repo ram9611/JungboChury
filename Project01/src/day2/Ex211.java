@@ -1,6 +1,6 @@
 package day2;
 /*
- * [¾Ï±â] for(int i=1; i<=4; i++){
+ * [ì•”ê¸°] for(int i=1; i<=4; i++){
  * 			...
  * }
  * 
@@ -11,26 +11,26 @@ import java.util.Scanner;
 public class Ex211 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.print("Á¤¼öÀÔ·Â: ");
+		System.out.print("ì •ìˆ˜ì…ë ¥: ");
 		int a=sc.nextInt();
 		
 		// num: 0, -, +
 		
 		if(a==0) {
-			System.out.println("0ÀÌ´Ù");
+			System.out.println("0ì´ë‹¤");
 		} else if(a>0) {
-			System.out.println("¾ç¼öÀÌ´Ù");
+			System.out.println("ì–‘ìˆ˜ì´ë‹¤");
 		} else {
-			System.out.println("À½¼öÀÌ´Ù");
+			System.out.println("ìŒìˆ˜ì´ë‹¤");
 		}
 		
 		
 		
 		
 		/*if(a%2==0) {
-			System.out.println("Â¦¼ö");
+			System.out.println("ì§ìˆ˜");
 		} else {
-			System.out.println("È¦¼ö");
+			System.out.println("í™€ìˆ˜");
 		}*/
 		
 		

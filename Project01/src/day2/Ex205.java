@@ -1,6 +1,6 @@
 package day2;
 /*
- * »ê¼ú + ´ëÀÔ¿¬»êÀÚ
+ * ì‚°ìˆ  + ëŒ€ì…ì—°ì‚°ì
  * += -= *= /= %=
  * 
  * 
@@ -10,7 +10,7 @@ public class Ex205 {
 	public static void main(String[] args) {
 		int a=3;
 		int b=2;
-		a+=b; // Ã³À½¿¡´Â ÀÌ·¸°Ô: a=a+b;¶ó´Â ÀÇ¹Ì
+		a+=b; // ì²˜ìŒì—ëŠ” ì´ë ‡ê²Œ: a=a+b;ë¼ëŠ” ì˜ë¯¸
 		System.out.println(a);
 		
 		

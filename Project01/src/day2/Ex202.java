@@ -1,13 +1,13 @@
 package day2;
 /*
- * ÀÚµ¿ Çüº¯È¯ ±ÔÄ¢
+ * ìë™ í˜•ë³€í™˜ ê·œì¹™
  * 
  */
 public class Ex202 {
 	public static void main(String[] args) {
 		
 		// int n=5.5; err
-		double n2=5; // double n2=5.0; À¸·Î ¸ÕÀú º¯È¯µÈ ÈÄ ½ÇÇàµÊ (ÀÌÇØ¿ä±¸)
+		double n2=5; // double n2=5.0; ìœ¼ë¡œ ë¨¼ì € ë³€í™˜ëœ í›„ ì‹¤í–‰ë¨ (ì´í•´ìš”êµ¬)
 		
 	}
 }

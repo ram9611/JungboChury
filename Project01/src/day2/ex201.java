@@ -1,26 +1,26 @@
 /*
- * [¾Ï±â] ÀÚµ¿ Çüº¯È¯ ±ÔÄ¢
- *	6°¡Áö µ¥ÀÌÅÍ Å¸ÀÔ(ÀÚ·áÇü)
- * byte-> short-> int-> long-> float-> double(½Ç¼ö)
+ * [ì•”ê¸°] ìë™ í˜•ë³€í™˜ ê·œì¹™
+ *	6ê°€ì§€ ë°ì´í„° íƒ€ì…(ìë£Œí˜•)
+ * byte-> short-> int-> long-> float-> double(ì‹¤ìˆ˜)
  * 
  * 1	   2	 	4	 8         4      8
  * 
  * ex)
  * int num=5;
- * double num2=5 / int 5¿¡¼­ double 5.0À¸·Î ÀÚµ¿ Çüº¯È¯
+ * double num2=5 / int 5ì—ì„œ double 5.0ìœ¼ë¡œ ìë™ í˜•ë³€í™˜
  * 
  * byte b=55;
- * short s=b;  / byte 55°¡ ¾Æ´Ñ short 55·Î s·Î µé¾î°¨
+ * short s=b;  / byte 55ê°€ ì•„ë‹Œ short 55ë¡œ së¡œ ë“¤ì–´ê°
  * 
  * double d=5.0;
- * long num=d; / double¿¡¼­ longÀ¸·Î Çüº¯È¯ X ->err
+ * long num=d; / doubleì—ì„œ longìœ¼ë¡œ í˜•ë³€í™˜ X ->err
  * 
  * 
- * [¾Ï±â] '½ºÄ³³Ê °´Ã¼ »ı¼º' ¹®Àå
+ * [ì•”ê¸°] 'ìŠ¤ìºë„ˆ ê°ì²´ ìƒì„±' ë¬¸ì¥
  * Scanner sc= new Scanner(System.in);
  * 
  * 
- * [¾Ï±â] ½ºÄ³³Ê ÀÌ¿ëÇØ¼­ Á¤¼ö °ª ÇÏ³ª ÀÔ·Â
+ * [ì•”ê¸°] ìŠ¤ìºë„ˆ ì´ìš©í•´ì„œ ì •ìˆ˜ ê°’ í•˜ë‚˜ ì…ë ¥
  * "sc.nextInt()"
  */
 
@@ -30,7 +30,7 @@ public class ex201 {
 	public static void main(String[] args) {
 		int a=33;
 		double b=3.14;
-		char c='°¡';
+		char c='ê°€';
 		System.out.printf("%d, %f, %c\n",a,b,c);
 		
 		System.out.println("=============");

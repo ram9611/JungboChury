@@ -12,7 +12,7 @@ public class Ex107 {
 		// 1. int형 변수에 byte 값을 담기
 		byte b=10;
 		int num=b;
-		System.out.println(num);	//이해 : 1바이트 공간에 있는 정보를 
+		System.out.println(num);	//이해 : 1바이트 공간에 있는 정보를 4바이트 int에 담는다.
 		
 		
 		 //2. byte형 변수에 int값을 담기

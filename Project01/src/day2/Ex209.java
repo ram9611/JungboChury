@@ -1,6 +1,6 @@
 package day2;
 /*
- * Áõ°¨¿¬»êÀÚ(++,--)
+ * ì¦ê°ì—°ì‚°ì(++,--)
  * 
  * 
  */
@@ -21,12 +21,12 @@ public class Ex209 {
 		
 		System.out.println("========");
 		
-		int num2=num++; // Áß¿ä
+		int num2=num++; // ì¤‘ìš”
 		System.out.println(num2); //5
 		//int num2= num; -> num=5 num2=5
 		//++ -> num=6
 		
-		int num3=++num; // Áß¿ä
+		int num3=++num; // ì¤‘ìš”
 		System.out.println(num3); //7
 		// ++ -> num=7
 		// int num3= num; num=7 num3=7

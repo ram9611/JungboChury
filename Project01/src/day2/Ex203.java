@@ -7,6 +7,6 @@ public class Ex203 {
 		double d=x+y;
 		System.out.println(d);
 		
-		// x+yÀÇ °ª int 5-> double 5.0À¸·Î ÀÚµ¿ Çüº¯È¯ µÈ´Ù.
+		// x+yì˜ ê°’ int 5-> double 5.0ìœ¼ë¡œ ìžë™ í˜•ë³€í™˜ ëœë‹¤.
 	}
 }

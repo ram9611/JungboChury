@@ -1,18 +1,18 @@
 package day2;
 /*
- * ºñ±³ ¿¬»êÀÚ --> ¿¬»êÀÇ °á°ú, true ¶Ç´Â false
- *  > <(Å©³Ä ÀÛ³Ä) 
- *  >= <= (ÀÌ»óÀÌ³Ä ÀÌÇÏ³Ä)
- *  == != (°°³Ä ´Ù¸£³Ä) 
+ * ë¹„êµ ì—°ì‚°ìž --> ì—°ì‚°ì˜ ê²°ê³¼, true ë˜ëŠ” false
+ *  > <(í¬ëƒ ìž‘ëƒ) 
+ *  >= <= (ì´ìƒì´ëƒ ì´í•˜ëƒ)
+ *  == != (ê°™ëƒ ë‹¤ë¥´ëƒ) 
  *  
  *  
- *  [¾Ï±â] 8°¡Áö ±âº» µ¥ÀÌÅÍ Å¸ÀÔ(primitive)
+ *  [ì•”ê¸°] 8ê°€ì§€ ê¸°ë³¸ ë°ì´í„° íƒ€ìž…(primitive)
  *  
  *  byte short int long float double char boolean
  *   1    2     4   8    4      8      2    1
- *  *. charÀÇ Ç¥Çö ¹üÀ§(Âü°í) : 0-655535
- *  *. shortÀÇ Ç¥Çö ¹üÀ§(Âü°í) : -32768~32767
- *  *. booleanÀÇ Ç¥Çö¹üÀ§ : true, false
+ *  *. charì˜ í‘œí˜„ ë²”ìœ„(ì°¸ê³ ) : 0-655535
+ *  *. shortì˜ í‘œí˜„ ë²”ìœ„(ì°¸ê³ ) : -32768~32767
+ *  *. booleanì˜ í‘œí˜„ë²”ìœ„ : true, false
  *  
  *  
  *  
@@ -21,7 +21,7 @@ public class Ex206 {
 	public static void main(String[] args) {
 		int a=3;
 		int b=2;
-		System.out.println(a>b); // °á°ú°ª true·Î ´ëÃ¼
-		System.out.println(a<=b); // °á°ú°ª false·Î ´ëÃ¼
+		System.out.println(a>b); // ê²°ê³¼ê°’ trueë¡œ ëŒ€ì²´
+		System.out.println(a<=b); // ê²°ê³¼ê°’ falseë¡œ ëŒ€ì²´
 	}
 }
