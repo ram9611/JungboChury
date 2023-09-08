@@ -1,7 +1,7 @@
-/* º¯¼öÀÇ Ç¥Çö¹üÀ§
+/* ë³€ìˆ˜ì˜ í‘œí˜„ë²”ìœ„
  * ++, --
  * ex) int num=5;
- * 			num++; // numÀÇ °ªÀÌ 1 Áõ°¡
+ * 			num++; // numì˜ ê°’ì´ 1 ì¦ê°€
  * 			syso(num);
  * 
  * 
@@ -12,10 +12,10 @@ public class Ex105 {
 		byte b=127;
 		System.out.println(b);
 		
-		b++;	// overflow (Âü°í)
-		System.out.println(b);//128----> -128 [°í±Þ]
+		b++;	// overflow (ì°¸ê³ )
+		System.out.println(b);//128----> -128 [ê³ ê¸‰]
 		
-		// 1) byte Å¸ÀÔÀÇ º¯¼ö´Â Àý´ë·Î 128À» Ç¥ÇöÇÒ ¼ö ¾ø´Ù!
+		// 1) byte íƒ€ìž…ì˜ ë³€ìˆ˜ëŠ” ì ˆëŒ€ë¡œ 128ì„ í‘œí˜„í•  ìˆ˜ ì—†ë‹¤!
 	}
 
 }

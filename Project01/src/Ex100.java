@@ -1,41 +1,41 @@
 /*
  * 
- * -¿µÅ¸¿¬½À(SpeedCoder)
- * -µû¿ÈÇ¥("), È¦µû¿ÈÇ¥(')
+ * -ì˜íƒ€ì—°ìŠµ(SpeedCoder)
+ * -ë”°ì˜´í‘œ("), í™€ë”°ì˜´í‘œ(')
  * 
- * ÁÖ¼® ÀÛ¼ºÇÏ´Â ¹æ¹ı:
- * 1) //ºÎÅÍ ±× ¹®Àå ³¡±îÁö
- * 2) /*ºÎÅÍ 
+ * ì£¼ì„ ì‘ì„±í•˜ëŠ” ë°©ë²•:
+ * 1) //ë¶€í„° ê·¸ ë¬¸ì¥ ëê¹Œì§€
+ * 2) /*ë¶€í„° 
  * 
- * ±ÛÀÚÅ©±â : ctrl+(+/-)
- * ÀúÀå : ctrl + s
- * ½ÇÇà: ctrl + F11
- * ÇÑÁÙ »èÁ¦: ctrl + D
+ * ê¸€ìí¬ê¸° : ctrl+(+/-)
+ * ì €ì¥ : ctrl + s
+ * ì‹¤í–‰: ctrl + F11
+ * í•œì¤„ ì‚­ì œ: ctrl + D
  * 
  */
 public class Ex100 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("hello, world!"); // È­¸é Ãâ·Â.
-		System.out.println("hello, world! Haha"); //"¹®ÀÚ¿­"
-		System.out.println(123); // Á¤¼ö
-		System.out.println(3.14); // ½Ç¼ö 
+		System.out.println("hello, world!"); // í™”ë©´ ì¶œë ¥.
+		System.out.println("hello, world! Haha"); //"ë¬¸ìì—´"
+		System.out.println(123); // ì •ìˆ˜
+		System.out.println(3.14); // ì‹¤ìˆ˜ 
 		
-		String s1;	//s1ÀÌ¶ó´Â ÀÌ¸§À» ¼±¾ğ('º¯¼ö')
+		String s1;	//s1ì´ë¼ëŠ” ì´ë¦„ì„ ì„ ì–¸('ë³€ìˆ˜')
 		s1="Hello ";
 		
 		String s2;
 		s2="world";
 		
-		System.out.println(s1+s2); // ¹®ÀÚ¿­ + ¹®ÀÚ¿­('°áÇÕ')
+		System.out.println(s1+s2); // ë¬¸ìì—´ + ë¬¸ìì—´('ê²°í•©')
 		
 		System.out.println(5+3);
 		System.out.println("5"+"3");
-		System.out.println("s1+s2"); //24Çà°ú ºñ±³
+		System.out.println("s1+s2"); //24í–‰ê³¼ ë¹„êµ
 		System.out.println("System.out.println(3);");
 		
-		// practice : ¾Æ·¡ ºó ÁÙÀ» Ã¤¿ö¼­ I'm___ÀÌ¸§___½ÄÀ¸·Î Ãâ·Â
+		// practice : ì•„ë˜ ë¹ˆ ì¤„ì„ ì±„ì›Œì„œ I'm___ì´ë¦„___ì‹ìœ¼ë¡œ ì¶œë ¥
 		
 		String name="Haram Kim";
 		System.out.println("I'm "+name);
@@ -43,6 +43,5 @@ public class Ex100 {
 	}
 
 }
-
 
 
