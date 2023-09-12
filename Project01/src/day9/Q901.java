@@ -1,4 +1,7 @@
 package day9;
+
+import java.util.Scanner;
+
 /*Q901.	연습(고급).
 - 암산게임.
 - 한 자릿수인 두 수(a,b)를 난수발생, 연산자(+,-,*,/)를 난수발생 -> 정답을 맞히는 게임.
@@ -16,5 +19,75 @@ package day9;
 public class Q901 {
 	public static void main(String[] args) {
 		
+		Scanner sc=new Scanner(System.in);
+		int correct=0;
+		int circle=0;
+		
+		
+		
+		while(true) {
+			
+			circle++;
+		
+		int num1=0;
+		int num2=0;
+		
+		
+		num1=(int)(Math.random()*8+1);
+		num2=(int)(Math.random()*8+1);
+		
+		
+		int oper=(int)(Math.random()*3);
+		
+		int result=0;
+		int u_result=0;
+		
+		switch(oper) {
+		
+		case 0:
+			result=num1+num2;
+			System.out.print(num1+"+"+num2+"=");
+			 u_result=sc.nextInt();
+			if(result==u_result)
+				correct++;
+			break;
+			
+		case 1:
+			result=num1-num2;
+			System.out.print(num1+"-"+num2+"=");
+			 u_result=sc.nextInt();
+			if(result==u_result)
+				correct++;
+			break;	
+		
+		case 2:
+			result=num1*num2;
+			System.out.print(num1+"*"+num2+"=");
+			 u_result=sc.nextInt();
+			if(result==u_result)
+				correct++;
+			break;		
+			
+		case 3:
+			
+			if(num1%num2==0) {
+			result=num1/num2;
+			System.out.print(num1+"/"+num2+"=");
+			 u_result=sc.nextInt();
+			if(result==u_result)
+				correct++;
+			break;	} else {
+				break;
+			}
+		
+		}
+		
+		if(circle==5) {
+			System.out.print("5문제 중 "+correct+"개 정답");
+			break;
+			
+		}
+		
+		}
 	}
 }
