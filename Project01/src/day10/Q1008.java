@@ -32,7 +32,7 @@ public class Q1008 {
 				}
 			}
 			
-			if(cnt==2||num==1) {
+			if(cnt==2) {
 				sum+=num;
 				
 			}else {

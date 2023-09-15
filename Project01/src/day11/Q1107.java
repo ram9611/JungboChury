@@ -22,6 +22,8 @@ public class Q1107 {
 		
 		int[] arr=new int[3];
 		
+		while(true) {
+		
 		for(int i=0;i<arr.length;i++) {
 			
 			arr[i]=(int)(Math.random()*10+1);
@@ -30,25 +32,37 @@ public class Q1107 {
 			
 		}
 		
+		if((arr[0]!=arr[1])&&(arr[0]!=arr[2])&&(arr[1]!=arr[2]))
+			break;
+		
+		}
+		
+		
 		System.out.println(Arrays.toString(arr));
 		
-		int max=arr[0];
-		int min=arr[0];
-		int num=0;
-		
+		int temp=0;
 		for(int i=0;i<arr.length;i++) {
 			
-			if(arr[i]>max)
-				max=arr[i];
-			else if(arr[i]<min)
-				min=arr[i];
+			for(int j=i;j<arr.length;j++) {
+				
+				if(arr[i]<arr[j]) {
+					
+					temp=arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+					
+				}
+					
+				
+			}
+			
+			
+			
 			
 		}
 		
-		arr[0]=max;
-		arr[2]=min;
-		System.out.println(arr[1]);
 		
+		System.out.println(arr[1]);
 		
 	}
 }

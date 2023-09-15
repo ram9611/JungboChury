@@ -21,7 +21,7 @@ public class Q801 {
 				}
 				
 				}
-			if(count==2) // 카운트 두번 수행되었다면 소수로 판단, 출력 수행
+			if(count==2||count==1) // 카운트 두번 수행되었다면 소수로 판단, 출력 수행
 			System.out.print(i+" ");
 			
 			
