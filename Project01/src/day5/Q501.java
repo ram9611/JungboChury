@@ -12,19 +12,20 @@ import java.util.Scanner;
 public class Q501 {
 	public static void main(String[] args) {
 		
-		Scanner sc=Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 		System.out.println("첫번쨰 정수입력");
-		int num_1=sc.nextInt();
+		int a=sc.nextInt();
 		
 		System.out.println("두번쨰 정수입력");
-		int num_2=sc.nextInt();
+		int b=sc.nextInt();
 		
 		System.out.println("세번쨰 정수입력");
-		int num_3=sc.nextInt();
+		int c=sc.nextInt();
 		
-		int sum
+		
 		int median;
 		
-		if(num_1>num_2)
+		median=((a>b&&a<c)||(a>c&&a<b)?a:((a>b&&a>c)&&(b>c))||((a<b&&a<c)&&(c>b))?b:c);
+		System.out.println(median);
 	}
 }
